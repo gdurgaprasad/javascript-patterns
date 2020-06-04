@@ -9,11 +9,10 @@ const UiCtrl = (function() {
   };
 
   return {
-    text:text,
+    text: text,
     changeText
   };
 })();
 
-
-UiCtrl.changeText()
+UiCtrl.changeText();
 console.log(UiCtrl.text);
